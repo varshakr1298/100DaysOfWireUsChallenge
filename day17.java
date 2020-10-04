@@ -3,7 +3,6 @@ import java.util.Scanner;
 
 public class day17 {
 	public static String[] subsequence(String input){
-		// Write your code here
        if(input.length()==0)
        {
        String ans[]={""};
