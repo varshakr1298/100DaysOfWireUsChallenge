@@ -3,8 +3,8 @@ import java.util.Scanner;
 public class day20 {
 	static void findNonConsecutive1s(int n) 
     {  
-        int p = (1 << n); 
-        for (int i = 1; i < p; i++) 
+        int binaryBit = (1 << n); 
+        for (int i = 1; i < binaryBit; i++) 
         	if ((i & (i << 1)) == 0) 
         System.out.print(i + " "); 
       
